@@ -7,9 +7,6 @@ body{
 .topbar{
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .question-container{
     margin: 10px;
@@ -18,14 +15,11 @@ body{
     height: 10vh;
     background-color: #f4cccc;
     font-size: 50px;
-    text-align: center;
     font-family: fantasy;
 }
 .result{
     margin: 10px;
     padding: 5px;
-    width:80vw;
-    height: 10vh;
     text-align: center;
     font-size: 50px;
       
@@ -38,7 +32,6 @@ body{
     width: 80vw;
     height: 20vh;
     background-color: #fff2cc; 
-        
 }
 .option{    
     padding: 10px;
@@ -46,14 +39,14 @@ body{
     height: 15vh;
     font-size: 25px;
     background-color: #cfe2f3;
-    border-radius: 10%;
+    border-radius: 20%;
+    font-family: monospace;
 }
 .option:hover{
     background-color: #d9ead3;
 }
 .navigation{
     width: 80vw;
-    height: 10vh;
     margin: 10px;
     padding: 5px;
     display: flex;
@@ -65,17 +58,19 @@ body{
     width:30vw;
     height: 8vh;
     padding: 5px;
-    font-size: larger;
+    font-size: smaller;
 }
 .evaluate{
     
     background-color: #d9ead3;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: monospace;
 }
 .next{
     color: black;
     background-color: #d9ead3;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: monospace;
 }
 
 section {
@@ -87,5 +82,19 @@ section {
 h1 {
     font-family: monospace;
     font-size: 40px;
+    display: flex;
+    justify-content: space-around
+    margin: center;
+
 }
 
+.question-container:hover{
+background-color: plum;
+}
+
+.evaluate:hover{
+    background-color: teal;
+}
+.next:hover{
+    background-color: darkorange;
+}

@@ -1,4 +1,4 @@
-alert("Press OK to start this quiz!");
+alert("Press OK to start this quiz! You'll have one minute to answer all of the questions");
 var timeH = document.querySelector("h1");
 var timeSecond = 60;
 
