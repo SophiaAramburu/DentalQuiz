@@ -15,6 +15,7 @@ My primary goal for this assignment was to use my newly found JavaScript skills 
 
 View the website link below
 
+https://sophiaaramburu.github.io/DentalQuiz/
 
 ## Credits
 
