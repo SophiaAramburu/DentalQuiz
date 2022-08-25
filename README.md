@@ -9,3 +9,9 @@ My primary goal for this assignment was to use my newly found JavaScript skills 
 -I then created the JavaScript code, and that is what took me the longest. Figuring out how to make the timer was an eye opener for me. I added accessibility comments so that I wouldn't get confused with what each line of code was for, which i've noticed can happen fairly easily with JavaScript.
 
 -Lastly, I made the CSS to create a page that was easy to look at. I had a lot of fun with this part but I made sure that I didn't take up too much time doing so, so that I could try to work on the JavaScript acceptance criteria that I hadn't figured out yet. I also added hover effects that I feel pretty confident using after I submitted my last assignment- the Portolio. I've messed around a lot with the different effects. I added background color hover effects to a few of my flexbox's.
+
+## Demo
+<img src = "./DentalQuiz/assets/Capture.PNG">
+## Credits
+
+created by Sophia Aramburu
