@@ -122,7 +122,7 @@ function iterate(id) {
     // getting the evaluate button
     var evaluate = document.getElementsByClassName("evaluate");
   
-    // Evaluate 
+    // Evaluate
     evaluate[0].addEventListener("click", () => {
         if (selected == "true") {
             result[0].innerHTML = "True";
