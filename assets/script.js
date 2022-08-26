@@ -69,13 +69,13 @@ function iterate(id) {
     var op4 = document.getElementById('op4');
   
   
-    // Providing option text 
+    // option text 
     op1.innerText = Questions[id].a[0].text;
     op2.innerText = Questions[id].a[1].text;
     op3.innerText = Questions[id].a[2].text;
     op4.innerText = Questions[id].a[3].text;
   
-    // Providing the true or false value to the options
+    // true or false value to options
     op1.value = Questions[id].a[0].isCorrect;
     op2.value = Questions[id].a[1].isCorrect;
     op3.value = Questions[id].a[2].isCorrect;
@@ -92,7 +92,7 @@ function iterate(id) {
         selected = op1.value;
     })
   
-    // Show selection for op2
+    // selection for op2
     op2.addEventListener("click", () => {
         op1.style.backgroundColor = "#cfe2f3"; //light blue
         op2.style.backgroundColor = "#d9ead3"; //light green
@@ -101,7 +101,7 @@ function iterate(id) {
         selected = op2.value;
     })
   
-    // Show selection for op3
+    // selection for op3
     op3.addEventListener("click", () => {
         op1.style.backgroundColor = "#cfe2f3"; //light blue
         op2.style.backgroundColor = "#cfe2f3"; //light blue
@@ -110,7 +110,7 @@ function iterate(id) {
         selected = op3.value;
     })
   
-    // Show selection for op4
+    // selection for op4
     op4.addEventListener("click", () => {
         op1.style.backgroundColor = "#cfe2f3"; //light blue
         op2.style.backgroundColor = "#cfe2f3"; //light blue
@@ -119,10 +119,10 @@ function iterate(id) {
         selected = op4.value;
     })
   
-    // Grabbing the evaluate button
+    // getting the evaluate button
     var evaluate = document.getElementsByClassName("evaluate");
   
-    // Evaluate method
+    // Evaluate 
     evaluate[0].addEventListener("click", () => {
         if (selected == "true") {
             result[0].innerHTML = "True";
